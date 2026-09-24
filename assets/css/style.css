@@ -8,6 +8,11 @@
     --neutral-color: #CDC0B6;      /* Warm Greige*/
     --accent-color: #BF5E39;       /* Terracotta */
 }
+/*Global style*/
+/* Navigation */
+.navbar {
+    background-color: var(--neutral-color);
+}
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -37,6 +42,6 @@ h3 {
     font-weight: 600;
 }
 .navbar-logo {
-    width: 60px;
+    width: 50px;
     height: auto;
 }
