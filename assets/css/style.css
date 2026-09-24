@@ -36,12 +36,17 @@ h3 {
     color: var(--primary-color);
 }
 
-
-
 h3 {
     font-weight: 600;
 }
 .navbar-logo {
     width: 50px;
     height: auto;
+}
+
+.navbar .nav-link {
+    color: var(--primary-color);
+}
+.navbar .nav-link:hover {
+    color: var(--accent-color);
 }
