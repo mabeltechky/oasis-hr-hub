@@ -1,18 +1,16 @@
-/*Google font import*/
+/* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/*CSS Variables*/
+
+/* CSS Variables */
 :root {
-    --primary-color: #3D1F14;      /* Deep Brown  */
-    --secondary-color: #7FA669;   /* Botanical Green */
+    --primary-color: #3D1F14;      /* Deep Brown */
+    --secondary-color: #25D366;    /* Fresh Green */
     --background-color: #FFF9F0;   /* Light Cream */
-    --neutral-color: #CDC0B6;      /* Warm Greige*/
+    --neutral-color: #CDC0B6;      /* Warm Greige */
     --accent-color: #BF5E39;       /* Terracotta */
 }
-/*Global style*/
-/* Navigation */
-.navbar {
-    background-color: var(--neutral-color);
-}
+
+/* Global styles */
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -23,6 +21,7 @@ h1,
 h2,
 h3 {
     font-family: "Inter", sans-serif;
+    color: var(--primary-color);
 }
 
 h1,
@@ -30,15 +29,15 @@ h2 {
     font-weight: 700;
 }
 
-h1,
-h2,
-h3 {
-    color: var(--primary-color);
-}
-
 h3 {
     font-weight: 600;
 }
+
+/* Navigation */
+.navbar {
+    background-color: var(--neutral-color);
+}
+
 .navbar-logo {
     width: 50px;
     height: auto;
@@ -47,6 +46,7 @@ h3 {
 .navbar .nav-link {
     color: var(--primary-color);
 }
+
 .navbar .nav-link:hover {
-    color: var(--accent-color);
+    text-decoration: underline;
 }
