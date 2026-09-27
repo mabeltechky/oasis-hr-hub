@@ -389,6 +389,15 @@ All team photographs were sourced from **Pexels**:
 - [Photo by Ernest Flowers on Pexels](https://www.pexels.com/photo/professional-headshot-of-a-smiling-man-38677835/)
 - [Photo by Tran Nhu Tuan on Pexels](https://www.pexels.com/photo/professional-woman-smiling-in-blue-business-suit-29995644/)
 
+#### Homepage Header Image
+
+The homepage header uses a professional workplace meeting image to support the welcoming and approachable visual identity of Oasis HR Hub. The image reflects the platform's focus on practical HR support, professional guidance and communication within the workplace.
+
+- Photo by [Vitaly Gariev](https://www.pexels.com/photo/professional-business-meeting-in-office-setting-36733333/) from Pexels.
+
+The image is stored locally as `assets/images/header-image.jpg`
+
+
 ## Design
 
 The visual and layout decisions for Oasis HR Hub were developed from the UX planning described above. Wireframes were created before development to provide a visual reference for page structure, content hierarchy and responsive behaviour.
