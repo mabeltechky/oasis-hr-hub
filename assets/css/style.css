@@ -3,11 +3,11 @@
 
 /* CSS Variables */
 :root {
-    --primary-color: #3D1F14;      /* Deep Brown */
-    --secondary-color: #25D366;    /* Fresh Green */
-    --background-color: #FFF9F0;   /* Light Cream */
-    --neutral-color: #CDC0B6;      /* Warm Greige */
-    --accent-color: #BF5E39;       /* Terracotta */
+    --primary-color: #3D1F14;       /* Deep Brown */
+    --secondary-color: #2B5828;     /* Dark Green */
+    --background-color: #FFF9F0;    /* Light Cream */
+    --neutral-color: #CDC0B6;       /* Warm Greige */
+    --accent-color: #FF9A5C;        /* Warm Orange */
 }
 
 /* Global styles */
@@ -56,3 +56,24 @@ h3 {
     height: 450px;
     object-fit: cover;
 }
+
+/* Subheading colour - to be reviewed
+.sub-heading-color {
+    color: var(--secondary-color);
+}
+*/
+
+/* Custom button */
+.custom-button-outline {
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+/* Custom button hover */
+.custom-button-outline:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
