@@ -1,6 +1,7 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 /* CSS Variables */
 :root {
     --primary-color: #3D1F14;       /* Deep Brown */
@@ -9,6 +10,7 @@
     --neutral-color: #CDC0B6;       /* Warm Greige */
     --accent-color: #FF9A5C;        /* Warm Orange */
 }
+
 
 /* Global styles */
 body {
@@ -29,20 +31,24 @@ h2 {
     font-weight: 700;
 }
 
-
 h3 {
     font-weight: 600;
 }
+
+
 /* Section headings */
 .section-heading {
     margin-top: 1.5rem;
     text-transform: uppercase;
 }
+
+
 /* Subheading colour - to be reviewed
 .sub-heading-color {
     color: var(--secondary-color);
 }
 */
+
 
 /* Navigation */
 .navbar {
@@ -54,20 +60,23 @@ h3 {
     height: auto;
 }
 
+/* Navigation links */
 .navbar .nav-link {
     color: var(--primary-color);
 }
 
+/* Navigation link hover - orange underline while text remains brown */
 .navbar .nav-link:hover {
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
+/* Header image */
 .header-image {
     width: 100%;
     height: 450px;
     object-fit: cover;
 }
-
 
 
 /* Custom button */
@@ -77,19 +86,85 @@ h3 {
     color: var(--primary-color);
 }
 
+
 /* Custom button hover */
 .custom-button-outline:hover {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     color: var(--primary-color);
 }
+
+
 /* Service card icons */
 .service-icon {
     font-size: 2.5rem;
     margin: 1rem 0 0 1rem;
 }
+
+
 /* Service cards */
 .service-card {
     background-color: var(--neutral-color);
-    
+}
+
+
+/* Contact section */
+#contact {
+    background-color: var(--primary-color);
+}
+
+
+/* Contact section headings */
+#contact h2,
+#contact h3 {
+    color: var(--background-color);
+}
+
+
+/* Contact section paragraph text */
+#contact p {
+    color: var(--background-color);
+}
+
+
+/* Email and phone links */
+#contact .contact-details p a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+
+/* Show users that the email and phone number are clickable */
+#contact .contact-details p a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+
+/* Container holding the social media icons */
+.social-links {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+
+/* Social media icon links */
+.social-links a {
+    font-size: 1.4rem;
+    color: var(--background-color);
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* Social media icon hover effect */
+.social-links a:hover {
+    color: var(--accent-color);
+}
+
+
+/* Customise the Bootstrap table to match the Contact section */
+#contact .table {
+    --bs-table-bg: transparent;
+    --bs-table-color: var(--background-color);
 }
