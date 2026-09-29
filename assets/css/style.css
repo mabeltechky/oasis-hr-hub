@@ -70,6 +70,13 @@ h3 {
     text-decoration: underline;
     text-decoration-color: var(--accent-color);
 }
+/* Highlight the current page in the navigation */
+.navbar .nav-link.active {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
 
 /* Header image */
 .header-image {
