@@ -168,3 +168,13 @@ h3 {
     --bs-table-bg: transparent;
     --bs-table-color: var(--background-color);
 }
+/* Footer */
+.footer {
+    background-color: var(--neutral-color);
+    color: var(--primary-color);
+    padding: 1rem 0;
+}
+/* Remove the paragraph's default bottom margin */
+.footer p {
+    margin-bottom: 0;
+}
