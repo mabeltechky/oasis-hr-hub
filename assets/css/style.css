@@ -185,3 +185,9 @@ h3 {
 .footer p {
     margin-bottom: 0;
 }
+/* Accordion */
+.accordion-button:not(.collapsed) {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    box-shadow: none;
+}
