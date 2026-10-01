@@ -383,7 +383,7 @@ Alternative text is provided for meaningful images to support users who rely on 
 
 All team photographs were sourced from **Pexels**:
 
-- [Photo by Kampus Production on Pexels](https://www.pexels.com/photo/woman-in-blue-long-sleeve-shirt-sitting-on-chair-8171170/)
+- `Photo by Nataliya Vaitkevich from Pexels: https://www.pexels.com/photo/woman-in-black-blazer-and-white-long-sleeve-shirt-8062305/`
 - [Photo by Marcos Felipe on Pexels](https://www.pexels.com/photo/woman-in-black-dress-and-white-blazer-smiling-13331367/)
 - [Photo by Joel Santos on Pexels](https://www.pexels.com/photo/smiling-woman-holding-chin-15780878/)
 - [Photo by Ernest Flowers on Pexels](https://www.pexels.com/photo/professional-headshot-of-a-smiling-man-38677835/)
