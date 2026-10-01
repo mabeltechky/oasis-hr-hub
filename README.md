@@ -412,7 +412,7 @@ Creating the wireframes before coding made it possible to explore how the planne
 
 The wireframes cover the key areas of the platform and demonstrate how layouts adapt across different viewport sizes.
 
-[View the complete Oasis HR Hub wireframes in Balsamiq](https://balsamiq.cloud/slnwkct/pvlb8jl)
+[View the Oasis HR Hub Wireframes]`(assets/images/documentation/oasis-hr-hub-wireframes.pdf)`
 
 ## Features
 
