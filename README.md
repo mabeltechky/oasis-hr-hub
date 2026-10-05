@@ -252,9 +252,11 @@ Low-fidelity wireframes were created in Balsamiq for mobile, tablet and desktop 
 
 ##### Wireframes
 
-The wireframes were developed from the user stories and planned user journeys rather than around specific Bootstrap components. This ensured that the required user experience determined the layout, while the framework would later be used to implement that layout.
+The wireframes were developed from the user stories and planned user journeys to provide a clear visual guide for the structure and layout of Oasis HR Hub before development began.
 
-[View the complete Oasis HR Hub wireframes](https://balsamiq.cloud/slnwkct/pvlb8jl)
+They show how the key pages and content were planned across different screen sizes, helping to guide the responsive design of the website.
+
+[View the complete Oasis HR Hub wireframes](assets/images/documentation/oasis-hr-hub-wireframes.pdf)
 
 Key layout decisions included:
 
@@ -275,29 +277,9 @@ The Surface Plane established the visual identity of Oasis HR Hub. The aim was t
 
 ##### Visual Direction
 
-The visual direction was inspired by a warm interior reference image featuring natural neutral tones, dark wood, greenery and terracotta accents. This provided the starting point for the colour palette and helped shape the overall character of the interface.
+The visual direction for Oasis HR Hub was inspired by a warm interior image by **curaits**, sourced from Unsplash. The image combines warm neutral tones, natural wood, dark structural details, greenery and subtle orange accents. These elements reflected the warm, professional and approachable character intended for the HR platform.
 
-Colours from the reference were explored using an online image colour picker and then refined during development. The final choices were not based on appearance alone; readability, contrast, consistency and the intended use of each colour within the interface were also considered.
-
-##### Colour Palette
-
-The final palette combines warm neutrals with natural and earthy accent colours:
-
-| Colour | Hex | Intended Use |
-| --- | --- | --- |
-| Deep Brown | `#3D1F14` | Primary headings and strong visual elements |
-| Fresh Green | `#25D366` | Secondary brand colour and selected accents |
-| Light Cream | `#FFF9F0` | Main page background |
-| Warm Greige | `#CDC0B6` | Navigation and neutral interface areas |
-| Terracotta | `#BF5E39` | Accent colour |
-
-The palette was deliberately kept small to support visual consistency throughout the website. Deep brown provides a strong contrast against the light cream background, while the greige and natural accent colours maintain the warm visual direction established by the original inspiration.
-
-##### Visual Direction
-
-The visual direction for Oasis HR Hub was inspired by a warm interior image by **curaits**, sourced from Unsplash. The image combines warm neutral tones, natural wood, dark structural details, greenery and subtle terracotta/orange accents. These elements reflected the warm, professional and approachable character I wanted the HR platform to communicate.
-
-Rather than reproducing the interior design itself, the image was used as a visual reference for developing the website's colour palette. Colours were sampled from the image using an online colour picker and were then refined during development based on their intended use, readability and contrast.
+Rather than reproducing the interior design itself, the image was used as a visual reference when developing the website's colour palette. Colours were explored from the reference image and refined during development based on their intended use, readability, contrast and consistency across the interface.
 
 ![Interior image used as colour palette inspiration for Oasis HR Hub](assets/images/documentation/colour-palette-inspiration.jpg)
 
@@ -305,33 +287,55 @@ Rather than reproducing the interior design itself, the image was used as a visu
 
 ##### Colour Palette
 
-The final palette combines warm neutrals with natural and earthy accent colours:
+The final Oasis HR Hub palette combines warm neutrals with natural colours to create a professional but approachable visual identity.
 
 | Colour | Hex | Intended Use |
 | --- | --- | --- |
 | Deep Brown | `#3D1F14` | Primary headings and strong visual elements |
-| Fresh Green | `#25D366` | Secondary brand colour and selected accents |
-| Light Cream | `#FFF9F0` | Main page background |
-| Warm Greige | `#CDC0B6` | Navigation and neutral interface areas |
-| Terracotta | `#BF5E39` | Accent colour |
+| Dark Green | `#2B5828` | Secondary colour and interface accents |
+| Light Cream | `#FFF9F0` | Main page background and light text on dark backgrounds |
+| Warm Greige | `#CDC0B6` | Navigation, footer and neutral interface areas |
+| Warm Orange | `#FF9A5C` | Accent colour, hover states and interactive emphasis |
 
-The palette was deliberately kept small to support visual consistency throughout the website. Deep brown provides a strong contrast against the light cream background, while the greige and natural accent colours maintain the warm visual direction established by the original inspiration.
+The palette was deliberately kept small to maintain visual consistency throughout the website. CSS custom properties were used to store the colours so that the same values could be reused consistently across the interface.
 
 ##### Accessibility and Colour Contrast
 
 Accessibility was considered alongside the visual design when deciding how colours would be used throughout the interface.
 
-The WebAIM Contrast Checker was used during development to test foreground and background colour combinations. Testing helped distinguish between colours that worked well as part of the overall brand palette and combinations that were appropriate for readable text.
+The WebAIM Contrast Checker was used during development to test foreground and background colour combinations. This helped ensure that colours used for text and interactive elements provided sufficient contrast rather than relying on their visual appearance alone.
 
-For example, the primary deep brown (`#3D1F14`) against the light cream background (`#FFF9F0`) achieved a contrast ratio of **14.28:1**, providing strong contrast for headings and other important text.
+The following colour combinations were tested:
 
-Some colour combinations explored during development did not provide sufficient contrast for normal-sized text. Rather than assuming that every colour in the palette could be used interchangeably, the results were used to guide where particular colours could be applied.
+| Colour Combination | Contrast Ratio | Result |
+| --- | ---: | --- |
+| Deep Brown `#3D1F14` / Light Cream `#FFF9F0` | 14.28:1 | Pass |
+| Deep Brown `#3D1F14` / Warm Greige `#CDC0B6` | 8.4:1 | Pass |
+| Dark Green `#2B5828` / Light Cream `#FFF9F0` | 7.93:1 | Pass |
+| Light Cream `#FFF9F0` / Dark Green `#2B5828` | 7.93:1 | Pass |
+| Warm Orange `#FF9A5C` / Deep Brown `#3D1F14` | 7.14:1 | Pass |
 
-Navigation interaction was also considered during this process. An underline was used on hover rather than relying solely on a subtle colour change. This provides an additional visual indication that the navigation links are interactive without depending on colour alone.
+###### Deep Brown and Light Cream
 
-![WebAIM contrast test showing deep brown against the light cream background](assets/images/documentation/contrast-brown-cream.jpg)
+![WebAIM contrast test showing deep brown against light cream](assets/images/documentation/contrast-brown-cream.jpeg)
 
-![WebAIM contrast test showing deep brown against the warm greige background](assets/images/documentation/contrast-brown-greige.jpg)
+###### Deep Brown and Warm Greige
+
+![WebAIM contrast test showing deep brown against warm greige](assets/images/documentation/contrast-brown-greige.jpeg)
+
+###### Dark Green and Light Cream
+
+![WebAIM contrast test showing dark green against light cream](assets/images/documentation/contrast-green-cream.jpeg)
+
+###### Light Cream and Dark Green
+
+![WebAIM contrast test showing light cream against dark green](assets/images/documentation/contrast-cream-green.jpeg)
+
+###### Warm Orange and Deep Brown
+
+![WebAIM contrast test showing warm orange against deep brown](assets/images/documentation/contrast-orange-brown.jpeg)
+
+Navigation interaction was also considered as part of accessibility. Navigation links use an underline on hover and the active page is visually identified, providing an additional visual cue rather than relying solely on colour.
 
 [Check colour contrast using WebAIM](https://webaim.org/resources/contrastchecker/)
 
@@ -339,7 +343,7 @@ Navigation interaction was also considered during this process. An underline was
 
 **Inter** was selected as the primary typeface for Oasis HR Hub and is used consistently throughout the website.
 
-The font was chosen for its clean and modern appearance and its readability across different screen sizes. Using a single font family also helps maintain visual consistency while different font weights create a clear hierarchy between headings and body content.
+The font was chosen for its clean, modern appearance and readability across different screen sizes. Using a single font family helps maintain visual consistency, while different font weights create a clear hierarchy between headings and body content.
 
 The typography uses:
 
@@ -347,7 +351,7 @@ The typography uses:
 - **600 (Semi-Bold)** for smaller headings and elements requiring additional emphasis.
 - **700 (Bold)** for primary and secondary headings.
 
-Inter is imported from [Google Fonts](https://fonts.google.com/specimen/Inter) and includes fallback to the generic `sans-serif` font family if the web font cannot be loaded.
+Inter is imported from [Google Fonts](https://fonts.google.com/specimen/Inter), with `sans-serif` included as a fallback font family.
 
 ##### Logo and Brand Identity
 
@@ -373,13 +377,13 @@ The appropriate favicon files are linked within the `<head>` section of the webs
 
 ##### Imagery
 
-Imagery within Oasis HR Hub was used selectively so that it supports the purpose of the platform without distracting from the HR information and employee processes.
+Imagery within Oasis HR Hub was selected to support the professional, approachable and people-focused character of the platform.
 
-The main photographic imagery appears within the **Meet the Team** section, where professional portrait photographs are used to represent members of the HR team. Images with similar framing, lighting and professional presentation were selected to create a consistent and approachable appearance across the profiles.
+Professional workplace imagery is used within the homepage and Employee Hub headers to reinforce the HR and workplace context of the website. The Meet the Team page uses professional portrait photographs to represent members of the HR team.
 
-The team photographs are presented within a Bootstrap carousel. This allows users to browse individual team members without displaying all profiles simultaneously and overcrowding the page. Manual previous and next controls are also provided so that users can return to a profile if they need more time to read its information.
+The team photographs were selected with similar framing and professional presentation to create a consistent appearance across the profiles. They are displayed within a Bootstrap carousel, allowing users to browse individual team members without overcrowding the page. Previous and next controls allow users to move between the profiles.
 
-Alternative text is provided for meaningful images to support users who rely on assistive technologies.
+Alternative text is provided for meaningful images to support accessibility.
 
 All team photographs were sourced from **Pexels**:
 
@@ -389,7 +393,7 @@ All team photographs were sourced from **Pexels**:
 - [Photo by Ernest Flowers on Pexels](https://www.pexels.com/photo/professional-headshot-of-a-smiling-man-38677835/)
 - [Photo by Tran Nhu Tuan on Pexels](https://www.pexels.com/photo/professional-woman-smiling-in-blue-business-suit-29995644/)
 
-#### Homepage Header Images
+###### Image Sources
 
 The homepage header uses a professional workplace meeting image to support the welcoming and approachable visual identity of Oasis HR Hub. The image reflects the platform's focus on practical HR support, professional guidance and communication within the workplace.
 
@@ -416,25 +420,166 @@ The wireframes cover the key areas of the platform and demonstrate how layouts a
 
 ## Features
 
-Oasis HR Hub includes a range of responsive features designed around the needs identified during the UX planning process. Each feature supports a specific user journey or business requirement rather than being included solely for visual or technical demonstration.
+Oasis HR Hub includes a range of responsive features designed around the needs identified during the UX planning process. Each feature supports a specific user journey or business requirement and helps users navigate and interact with the platform.
 
 ### Navigation Bar
 
-A responsive navigation bar is provided across the platform to give users consistent access to the main areas of Oasis HR Hub.
+Oasis HR Hub uses a responsive navigation bar across the website to provide users with consistent access to its main pages and sections.
 
-The navigation includes:
+The Oasis HR Hub logo appears on the left as the primary brand identifier. On larger screens, the navigation links are displayed on the right side of the navigation bar. On smaller screens, the navigation collapses into a Bootstrap hamburger menu, allowing the links to remain accessible without overcrowding the available screen space.
 
-- Home
-- Services
-- Employee Hub
-- Meet the Team
-- FAQ
-- Contact
+The navigation provides the following options:
 
-The Oasis HR Hub logo is positioned on the left as the primary brand identifier, while the navigation links are positioned on the right on larger screens.
+- **Home** – takes the user to the homepage of Oasis HR Hub.
+- **Services** – takes the user directly to the Services section of the homepage, where the HR support services available through the platform are presented.
+- **Employee Hub** – opens the Employee Hub, where employees can access workplace self-service options and begin common HR processes.
+- **Meet the Team** – opens the Meet the Team page, where users can view members of the HR team and their roles.
+- **FAQ** – opens the Frequently Asked Questions page, where users can expand individual questions to view the answers.
+- **Contact** – takes the user directly to the Contact section of the homepage, where contact details, business hours and social media links are provided.
 
-On smaller screens, the navigation collapses into a Bootstrap hamburger menu to prevent the links from overcrowding the available space.
+The current page is visually identified within the navigation, helping users understand where they are within the website. Navigation links also display an underline on hover to provide additional visual feedback when a link is interactive.
 
-Services and Contact link directly to sections of the homepage, while Employee Hub, Meet the Team and FAQ lead to dedicated pages.
+On smaller screens, selecting the hamburger button expands the navigation menu vertically. When a navigation link is selected, the menu collapses and the user is taken to the selected page or section, while the active page remains visually identified within the navigation.
+### Home Page
 
-An underline appears when users hover over navigation links, providing an additional visual indication of interactivity rather than relying solely on a colour change.
+The Home page is the main entry point to Oasis HR Hub and introduces users to the purpose of the platform and the HR support available.
+
+The header section includes a professional workplace image and a **Start Onboarding** call-to-action. When the user selects **Start Onboarding**, they are taken to the Employee Onboarding form, where they can enter and submit the information required for the onboarding process.
+
+The Home page also encompasses the **Services**, **Pricing** and **Contact** sections described below. These sections allow users to explore the HR services provided, view pricing information and access the contact details for Oasis HR Hub without having to navigate to separate pages.
+
+#### Services
+
+The Services section is located on the Home page and provides users with information about the HR services available through Oasis HR Hub.
+
+The services are presented in individual cards, using headings, icons and short descriptions to help users quickly understand the different areas of HR support provided.
+
+When a user selects **Services** from the navigation bar, they are taken directly to the Services section of the Home page rather than to a separate page. Users can also reach the section naturally by scrolling through the Home page.
+
+The service cards are arranged responsively so that they adapt to different screen sizes, remaining clear and easy to read across mobile, tablet and desktop devices.
+
+#### Pricing
+
+The Pricing section is also located on the Home page and provides users with information about the pricing options available for the HR services offered through Oasis HR Hub.
+
+The pricing information is presented clearly so that users can compare the available options and understand what is included before deciding which level of HR support may be appropriate for their needs.
+
+As part of the Home page, the Pricing section can be reached by scrolling through the page and remains responsive across different screen sizes.
+
+#### Contact
+
+The Contact section appears on the Home page and provides users with the information required to get in touch with Oasis HR Hub.
+
+The section includes contact details such as the email address and telephone number, together with the business opening hours. Social media icons are also provided to give users additional ways to connect with Oasis HR Hub.
+
+When a user selects **Contact** from the navigation bar, they are taken directly to the Contact section of the Home page rather than to a separate Contact page.
+
+The email address and telephone number are presented as clickable links, allowing users to begin an email or telephone contact using a supported device or application. The social media icons are also presented as interactive links.
+
+The Contact section uses a responsive layout so that the contact information and business hours remain clearly presented across mobile, tablet and desktop screen sizes.
+
+### Employee Hub
+
+The Employee Hub is a dedicated page that provides employees with quick access to common HR self-service processes. It brings these actions together in one place so that employees can easily identify and access the support they need.
+
+The Employee Hub provides access to **Start Onboarding**, **Request Leave** and **Report Absence**.
+
+When the user selects **Start Onboarding**, they are taken to the Employee Onboarding page, where they can complete and submit the onboarding form.
+
+When the user selects **Request Leave**, a modal form is displayed on the Employee Hub page. This allows the employee to enter the required leave information without navigating away from the page.
+
+When the user selects **Report Absence**, a modal form is displayed, allowing the employee to provide the required information about their absence.
+
+The use of modal forms for the leave and absence processes allows employees to complete these common HR actions while remaining within the Employee Hub.
+
+The Employee Hub uses a responsive layout so that its content and employee self-service options remain accessible across mobile, tablet and desktop screen sizes.
+
+### Meet the Team
+
+The Meet the Team page introduces users to the HR professionals represented within Oasis HR Hub. It helps create a more approachable and people-focused experience by allowing users to see the individuals associated with different areas of HR support.
+
+The team members are presented within a responsive Bootstrap carousel. Each carousel slide displays a professional photograph of a team member together with their name and HR role.
+
+The carousel includes **Previous** and **Next** controls. When a user selects either control, the carousel moves to the previous or next team member, allowing users to browse the individual profiles without displaying all of the team members on the page at the same time.
+
+Five HR team members are presented within the carousel:
+
+- **Daniel Brooks** – HR Manager
+- **Grace Thompson** – HR Support Advisor
+- **Amelia Carter** – Recruitment Advisor
+- **Sophia Williams** – Training & Development Advisor
+- **Emily Harrison** – HR Compliance Advisor
+
+The layout also responds to different screen sizes. On smaller screens, the introductory content and carousel are displayed vertically, while on larger screens they are positioned alongside each other to make effective use of the available space.
+
+Alternative text is provided for the team images to support users who rely on assistive technologies.
+The photographs used for the Meet the Team profiles can be found in the **Imagery** section of this README, together with their original image sources.
+
+### FAQ
+
+The FAQ page provides users with answers to common questions about the HR services and employee support available through Oasis HR Hub.
+
+Eight frequently asked questions are presented using a Bootstrap accordion. This keeps the page organised by displaying the questions while allowing users to choose which answers they want to view.
+
+When a user selects a question, the accordion expands to display the corresponding answer. The user can then collapse the answer or select another question to view additional information.
+
+This approach prevents large amounts of information from being displayed at once and allows users to quickly locate the information that is relevant to them.
+
+The accordion is responsive and remains easy to use across mobile, tablet and desktop screen sizes. The questions can also receive keyboard focus, supporting users who navigate the website using a keyboard.
+
+### Footer
+
+A consistent footer is included across the Oasis HR Hub website to provide a clear visual ending to each page and maintain consistency throughout the platform.
+
+The footer displays the Oasis HR Hub copyright information and uses the same colour palette and styling as the rest of the website, reinforcing the overall visual identity.
+
+Its simple design keeps the focus on the main page content while ensuring that users have a consistent experience when reaching the bottom of each page.
+
+The footer is responsive and remains clearly displayed across mobile, tablet and desktop screen sizes.
+
+## Technologies Used
+
+The following technologies were used to build and manage the Oasis HR Hub project:
+
+- **HTML5** – used to structure the content and pages of the website.
+- **CSS3** – used to create the custom styling and visual presentation of the website.
+- **Bootstrap 5** – used to support responsive layouts and components including the navigation bar, grid system, cards, forms, modals, accordion and carousel.
+- **Google Fonts** – used to import the Inter typeface used throughout the website.
+- **Font Awesome** – used to provide icons within the website.
+- **Git** – used for version control throughout the development of the project.
+- **GitHub** – used to store the project repository and maintain the development history.
+
+### Google's Lighthouse Performance
+
+Google Lighthouse was used to assess the performance, accessibility, best practices and SEO of the main pages of Oasis HR Hub.
+
+The Lighthouse tests produced the following results:
+
+| Page | Performance | Accessibility | Best Practices | SEO |
+| --- | ---: | ---: | ---: | ---: |
+| Home | 92 | 100 | 100 | 91 |
+| Employee Hub | 91 | 100 | 100 | 91 |
+| FAQ | 85 | 100 | 100 | 91 |
+| Meet the Team | 70 | 100 | 100 | 91 |
+
+The Home page and Employee Hub achieved performance scores above 90. The FAQ page achieved a performance score of 85, while the Meet the Team page achieved a performance score of 70.
+
+All four pages achieved scores of **100 for Accessibility** and **100 for Best Practices**, with a consistent **SEO score of 91**.
+
+Performance scores varied between pages, with the Meet the Team page recording the lowest performance score. Lighthouse results can vary depending on factors such as image loading, browser conditions and the environment in which the test is carried out.
+
+#### Home Page Lighthouse Result
+
+![Lighthouse results for the Oasis HR Hub Home page](assets/images/documentation/index-lighthouse.jpeg)
+
+#### Employee Hub Lighthouse Result
+
+![Lighthouse results for the Oasis HR Hub Employee Hub page](assets/images/documentation/employee-hub-lighthouse.jpeg)
+
+#### FAQ Lighthouse Result
+
+![Lighthouse results for the Oasis HR Hub FAQ page](assets/images/documentation/faq-lighthouse.jpeg)
+
+#### Meet the Team Lighthouse Result
+
+![Lighthouse results for the Oasis HR Hub Meet the Team page](assets/images/documentation/team-lighthouse.jpeg)
