@@ -648,3 +648,50 @@ The responsive behaviour observed during testing included:
 #### FAQ on Mobile
 
 ![Responsive FAQ page displayed on an iPhone](assets/images/documentation/responsive-faq-mobile.jpeg)
+
+### Code Validation
+
+The HTML and CSS used throughout Oasis HR Hub were validated to identify syntax errors and confirm that the code follows recognised web standards.
+
+The **W3C Nu HTML Checker** was used to validate each HTML page individually. The following pages were tested:
+
+- `index.html`
+- `employee-hub.html`
+- `faq.html`
+- `onboarding.html`
+- `success.html`
+- `team.html`
+
+The **W3C CSS Validation Service** was used to validate the project's CSS.
+
+During development, validation identified issues that were reviewed and corrected where appropriate. The final validation results were recorded and screenshots were retained as evidence of the testing carried out.
+
+#### Home Page HTML Validation
+
+![HTML validation result for the Home page](assets/images/documentation/html-validation-index.png.jpeg)
+
+#### Employee Hub HTML Validation
+
+![HTML validation result for the Employee Hub](assets/images/documentation/html-validation-employee-hub.png.jpeg)
+
+#### FAQ HTML Validation
+
+![HTML validation result for the FAQ page](assets/images/documentation/html-validation-faq.png.jpeg)
+
+#### Employee Onboarding HTML Validation
+
+![HTML validation result for the Employee Onboarding page](assets/images/documentation/html-validation-onboarding.png.jpeg)
+
+#### Success Page HTML Validation
+
+![HTML validation result for the Success page](assets/images/documentation/html-validation-success.png.jpeg)
+
+#### Meet the Team HTML Validation
+
+![HTML validation result for the Meet the Team page](assets/images/documentation/html-validation-team.png.jpeg)
+
+#### CSS Validation
+
+![CSS validation result for Oasis HR Hub](assets/images/documentation/css-validation.png.jpeg)
+
+The CSS validator also displayed warnings relating to the imported Google Fonts stylesheet and the use of the same colour for the background and border of the custom button hover state. These warnings did not prevent the CSS from functioning as intended.
