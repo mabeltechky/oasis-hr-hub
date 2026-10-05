@@ -695,3 +695,156 @@ During development, validation identified issues that were reviewed and correcte
 ![CSS validation result for Oasis HR Hub](assets/images/documentation/css-validation.png.jpeg)
 
 The CSS validator also displayed warnings relating to the imported Google Fonts stylesheet and the use of the same colour for the background and border of the custom button hover state. These warnings did not prevent the CSS from functioning as intended.
+
+### Manual Testing – User Stories
+
+Manual testing was carried out against the acceptance criteria defined for each user story. Each acceptance criterion was tested to confirm that the implemented feature or behaviour works as intended.
+
+| User Story | Acceptance Criteria | Manual Test | Result |
+| --- | --- | --- | --- |
+| **US01 – Understand the HR Platform** | The purpose of the HR platform is immediately understandable from the homepage. | Opened the homepage and confirmed that the introductory content clearly communicates the purpose of Oasis HR Hub. | Pass |
+| US01 | A clear main heading and introductory text are displayed. | Opened the homepage and confirmed that the main heading and introductory text are clearly visible. | Pass |
+| US01 | A prominent **Start Onboarding** CTA is visible and opens `onboarding.html`. | Selected **Start Onboarding** and confirmed that the Employee Onboarding page opened correctly. | Pass |
+| US01 | HR Services, Pricing & Packages and Contact information can be reached easily from the homepage. | Navigated through the homepage and confirmed that the Services, Pricing and Contact sections are accessible. | Pass |
+| US01 | The Contact/Footer section clearly displays an email address and phone number. | Checked the Contact/Footer section and confirmed that both the email address and phone number are clearly displayed. | Pass |
+| US01 | Social-media links/icons are available within the Contact/Footer section. | Checked the Contact/Footer section and confirmed that the social-media icons are displayed as interactive links. | Pass |
+| US01 | Business opening days and corresponding opening hours are clearly presented in a structured table. | Checked the business-hours area and confirmed that the opening days and corresponding hours are presented in a structured table. | Pass |
+| US01 | Opening-hours table rows provide clear visual feedback when hovered over on devices that support hover. | Hovered over the opening-hours table rows on a desktop device and confirmed that visible hover feedback is provided. | Pass |
+| US01 | Copyright/site information is displayed within the footer. | Checked the footer and confirmed that the copyright/site information is displayed. | Pass |
+| US01 | Selecting **Contact** directs the user to the Contact/Footer section. | Selected **Contact** from the navigation and confirmed that the browser moved to the Contact section of the homepage. | Pass |
+| US01 | Interactive CTAs provide visible feedback when hovered over on devices that support hover and when focused using a keyboard. | Tested the interactive CTA using mouse hover and keyboard navigation and confirmed that visible hover and focus feedback is provided. | Pass |
+| US01 | Homepage content, including the Contact/Footer and opening-hours table, remains readable and usable across mobile, tablet and desktop screen sizes. | Tested the homepage at mobile, tablet and desktop screen sizes and confirmed that the content, Contact/Footer and opening-hours table remained readable and usable. | Pass |
+| **US02 – Understand Available HR Services** | All four agreed HR service areas are displayed. | Checked the Services section and confirmed that Recruitment Support, Employee Onboarding, Policies & Compliance, and Training & Employee Development are displayed. | Pass |
+| US02 | Each service has a clear title, appropriate icon and concise explanation. | Checked each service card and confirmed that it contains a clear title, icon and description. | Pass |
+| US02 | Services are presented as visually distinct cards. | Confirmed that the four services are displayed as separate Bootstrap cards. | Pass |
+| US02 | Selecting **Services** from the navigation takes the user to the Services section on the homepage. | Selected **Services** from the navigation and confirmed that the browser moved to the Services section of the homepage. | Pass |
+| US02 | When navigating from another page, the Services link returns the user to `index.html#services`. | Selected **Services** while on another page and confirmed that the browser returned to the Services section of the homepage. | Pass |
+| US02 | The Services heading/relevant content remains visible rather than being obscured by the fixed navigation. | Used the Services navigation link and confirmed that the Services heading and relevant content remained visible. | Pass |
+| US02 | Service cards adapt appropriately to different screen sizes. | Tested the Services section at different screen sizes and confirmed that the cards adapt appropriately without horizontal overflow. | Pass |
+| **US03 – Compare HR Packages and Pricing** | Available packages are clearly distinguishable. | Viewed the Pricing section and confirmed that each package is presented separately and can be clearly distinguished from the others. | Pass |
+| US03 | Each package displays its name, price and included services/features. | Checked each pricing card and confirmed that the package name, price and included services/features are displayed. | Pass |
+| US03 | Users can compare the package information easily. | Reviewed the pricing cards together and confirmed that their consistent presentation allows the package information to be compared easily. | Pass |
+| US03 | Each package provides a Contact Us CTA. | Checked each pricing card and confirmed that a **Contact Us** CTA is provided. | Pass |
+| US03 | Selecting Contact Us takes the user to the Contact information rather than implying an unsupported online checkout. | Selected the **Contact Us** CTA and confirmed that it directed the user to the Contact section rather than to an online checkout. | Pass |
+| US03 | Pricing cards remain usable across mobile, tablet and desktop devices. | Tested the Pricing section at mobile, tablet and desktop screen sizes and confirmed that the cards remain readable and usable. | Pass |
+| **US04 – Navigate Consistently Across the Platform** | Navigation appears consistently throughout the platform. | Opened the different pages of the website and confirmed that the navigation is presented consistently throughout the platform. | Pass |
+| US04 | Logo and navigation positioning is appropriate on larger screens. | Viewed the website on a larger screen and confirmed that the logo and navigation links are positioned appropriately. | Pass |
+| US04 | All navigation items lead to their intended pages or sections. | Selected each navigation item and confirmed that it leads to its intended page or homepage section. | Pass |
+| US04 | Cross-page Services and Contact links correctly return users to the relevant homepage sections. | Selected Services and Contact while on other pages and confirmed that both links returned to their respective sections on the homepage. | Pass |
+| US04 | Navigation collapses appropriately on smaller screens. | Tested the website at a smaller screen size and confirmed that the navigation collapses into the hamburger menu. | Pass |
+| US04 | The mobile menu does not unnecessarily remain open after navigation. | Opened the mobile navigation, selected a navigation link and confirmed that the menu did not remain unnecessarily open after navigation. | Pass |
+| US04 | Anchored content is visible below the fixed navbar. | Used the homepage anchor navigation links and confirmed that the relevant content remained visible rather than being obscured by the navbar. | Pass |
+| US04 | The footer consistently provides Contact information, social links/icons and copyright/site information. | Checked the Contact/Footer content and confirmed that Contact information, social links/icons and copyright/site information are provided as designed. | Pass |
+| US04 | There are no broken internal navigation links. | Tested the internal navigation links throughout the website and confirmed that they lead to valid destinations. | Pass |
+| **US05 – Access Employee Actions from the Employee Hub** | Employee Hub is accessible from the main navigation. | Selected **Employee Hub** from the main navigation and confirmed that the Employee Hub page opened correctly. | Pass |
+| US05 | Its purpose is clear to employees. | Opened the Employee Hub and confirmed that the heading and introductory content clearly explain the purpose of the page. | Pass |
+| US05 | Start Onboarding, Request Leave and Report Absence are clearly distinguishable. | Checked the Employee Hub and confirmed that Start Onboarding, Request Leave and Report Absence are presented as three clearly distinguishable actions. | Pass |
+| US05 | Each action has a clear explanation and CTA. | Checked each Employee Hub action and confirmed that it includes an explanation and an appropriate CTA. | Pass |
+| US05 | Start Onboarding opens `onboarding.html`. | Selected **Start Onboarding** and confirmed that the Employee Onboarding page opened correctly. | Pass |
+| US05 | Request Leave opens the correct leave modal. | Selected **Request Leave** and confirmed that the Leave Request modal opened. | Pass |
+| US05 | Report Absence opens the correct absence modal. | Selected **Report Absence** and confirmed that the Absence Report modal opened. | Pass |
+| US05 | Employee Hub remains usable across different screen sizes. | Tested the Employee Hub at different screen sizes and confirmed that its content, cards and actions remain accessible and usable. | Pass |
+| **US06 – Complete Employee Onboarding** | The onboarding page contains clearly organised form sections. | Opened the onboarding page and confirmed that the form is divided into clearly organised sections. | Pass |
+| US06 | All agreed Personal, Employment, Right-to-Work and Emergency Contact information can be entered. | Completed the Personal Details, Employment Details, Right-to-Work Information and Emergency Contact sections and confirmed that the agreed information can be entered. | Pass |
+| US06 | Start date uses an appropriate date input. | Selected the Start Date field and confirmed that an appropriate date input is provided. | Pass |
+| US06 | Right-to-work expiry information can be supplied where applicable without incorrectly requiring an expiry date from every employee. | Tested the Right-to-Work section and confirmed that expiry information can be provided where applicable without requiring an expiry date from every employee. | Pass |
+| US06 | Form controls have clear labels. | Reviewed the onboarding form controls and confirmed that each has a clear and understandable label. | Pass |
+| US06 | Required fields use appropriate front-end validation. | Attempted to submit the form without completing required fields and confirmed that front-end validation prevented submission and identified the required information. | Pass |
+| US06 | The form can be completed on mobile, tablet and desktop. | Tested the onboarding form at mobile, tablet and desktop screen sizes and confirmed that the form remains usable. | Pass |
+| US06 | Successful submission directs the user to `success.html`. | Completed the required form fields and submitted the onboarding form, confirming that the Success page opened. | Pass |
+| US06 | The interface does not claim that information has been stored in a database. | Reviewed the onboarding and confirmation wording and confirmed that no claim is made that the submitted information has been stored in a database. | Pass |
+| **US07 – Request Leave** | Selecting Request Leave opens the correct modal without navigating to an unnecessary additional page. | Selected **Request Leave** from the Employee Hub and confirmed that the Leave Request modal opened on the same page. | Pass |
+| US07 | The employee can provide the information required for the leave request. | Entered information into the Leave Request form and confirmed that the required leave details can be provided. | Pass |
+| US07 | Appropriate date controls are provided for the leave period. | Checked the leave-period fields and confirmed that appropriate date controls are provided. | Pass |
+| US07 | Form fields have clear labels and required fields are validated. | Reviewed the form labels and attempted submission with required information missing, confirming that front-end validation is provided. | Pass |
+| US07 | The user can close the modal without submitting. | Opened the Leave Request modal and used the close control, confirming that the modal could be closed without submitting the form. | Pass |
+| US07 | Successful submission directs the user to `success.html`. | Completed the required Leave Request fields, submitted the form and confirmed that the Success page opened. | Pass |
+| US07 | The interface does not claim that the request has been stored, approved or added to a leave balance. | Reviewed the Leave Request and confirmation wording and confirmed that no claim is made that the request has been stored, approved or added to a leave balance. | Pass |
+| US07 | The modal remains usable on smaller screens. | Tested the Leave Request modal at a smaller screen size and confirmed that the form remains accessible and usable. | Pass |
+| **US08 – Report an Absence** | Selecting Report Absence opens the correct modal. | Selected **Report Absence** from the Employee Hub and confirmed that the Absence Report modal opened. | Pass |
+| US08 | Employees can provide the agreed absence information. | Entered information into the Absence Report form and confirmed that the agreed absence details can be provided. | Pass |
+| US08 | Appropriate date controls are available. | Checked the absence-related date fields and confirmed that appropriate date controls are available. | Pass |
+| US08 | Form controls have clear labels and required fields are validated. | Reviewed the form labels and attempted submission with required information missing, confirming that front-end validation is provided. | Pass |
+| US08 | The modal can be closed without submitting. | Opened the Absence Report modal and used the close control, confirming that the modal could be closed without submitting. | Pass |
+| US08 | Successful submission directs the employee to `success.html`. | Completed the required Absence Report fields, submitted the form and confirmed that the Success page opened. | Pass |
+| US08 | The interface does not claim that absence information has been stored or processed by an HR database. | Reviewed the Absence Report and confirmation wording and confirmed that no claim is made that the information has been stored or processed by an HR database. | Pass |
+| US08 | The modal remains usable across supported screen sizes. | Tested the Absence Report modal at different screen sizes and confirmed that it remains accessible and usable. | Pass |
+| **US09 – Receive Submission Confirmation** | Onboarding, Leave Request and Absence Report submissions can all reach the shared success page. | Submitted the Onboarding, Leave Request and Absence Report forms and confirmed that all three submission journeys reach the shared Success page. | Pass |
+| US09 | A clear success/confirmation message is displayed. | Opened the Success page after form submission and confirmed that a clear submission confirmation message is displayed. | Pass |
+| US09 | Confirmation wording is appropriate for all three form journeys. | Reached the Success page from the onboarding, leave and absence forms and confirmed that the general confirmation wording is suitable for all three journeys. | Pass |
+| US09 | No unsupported backend processing or data storage is claimed. | Reviewed the Success page wording and confirmed that it does not claim that information has been processed or stored by a backend system. | Pass |
+| US09 | The user can return to the homepage easily. | Selected the **Return Home** CTA and confirmed that the homepage opened correctly. | Pass |
+| US09 | Navigation and footer remain consistent with the rest of the platform. | Compared the navigation and footer on the Success page with the rest of the website and confirmed consistent presentation. | Pass |
+| US09 | The page displays correctly across different screen sizes. | Tested the Success page at different screen sizes and confirmed that the content remains readable and usable. | Pass |
+| **US10 – Find Answers to Common HR Service Questions** | FAQ is accessible directly from the navbar. | Selected **FAQ** from the navigation and confirmed that the FAQ page opened correctly. | Pass |
+| US10 | The purpose of the page is immediately clear. | Opened the FAQ page and confirmed that the heading and introductory content clearly explain the purpose of the page. | Pass |
+| US10 | Common questions and answers are presented using an accordion. | Checked the FAQ content and confirmed that the questions and answers are presented using a Bootstrap accordion. | Pass |
+| US10 | Individual answers can be expanded and collapsed. | Selected different FAQ questions and confirmed that individual answers expand and collapse correctly. | Pass |
+| US10 | Questions are relevant to the HR service offered by the platform. | Reviewed the FAQ questions and confirmed that they relate to the HR services and support provided by Oasis HR Hub. | Pass |
+| US10 | Users can reach Contact information if further support is required. | Selected **Contact** from the FAQ page and confirmed that the user is taken to the Contact section of the homepage. | Pass |
+| US10 | FAQ content remains readable and functional across different screen sizes. | Tested the FAQ page at different screen sizes and confirmed that the accordion remains readable and functional. | Pass |
+| **US11 – Learn About the HR Team** | Meet the Team is accessible from the main navigation. | Selected **Meet the Team** from the navigation and confirmed that the Meet the Team page opened correctly. | Pass |
+| US11 | The page explains its purpose. | Opened the Meet the Team page and confirmed that the heading and introductory content clearly explain its purpose. | Pass |
+| US11 | Each profile contains the agreed team information. | Navigated through the team profiles and confirmed that each profile contains the agreed team information. | Pass |
+| US11 | Profiles automatically progress at an appropriate interval. | Observed the carousel and confirmed that it automatically progresses through the team profiles. | Pass |
+| US11 | Previous and Next controls allow manual navigation in both directions. | Used the **Previous** and **Next** carousel controls and confirmed that the profiles can be navigated in both directions. | Pass |
+| US11 | Users can return to an earlier profile if they require more reading time. | Advanced through the carousel and used the Previous control to return to an earlier team profile. | Pass |
+| US11 | Team content remains readable and usable across different screen sizes. | Tested the Meet the Team page at different screen sizes and confirmed that the content and carousel remain readable and usable. | Pass |
+
+## Bugs and Fixes
+
+During the development and testing of Oasis HR Hub, several issues were identified and resolved. The table below records the main bugs encountered and the steps taken to correct them.
+
+| Bug / Issue | Fix |
+| --- | --- |
+| **Homepage styling stopped displaying correctly** – The page background and other styles appeared to stop working as expected. Investigation showed that a semicolon was missing after `text-transform: capitalize` in the CSS, which affected the rules that followed it. | Added the missing semicolon to the CSS rule and retested the website. The expected styling was restored. |
+| **Employee Onboarding form appeared more than once during development** – While building the form, following separate code examples caused form markup to be repeated, resulting in duplicated form content on the page. | Reviewed the HTML structure, removed the duplicated markup and retained one complete onboarding form with the required fields and layout. |
+| **Employee Onboarding form appeared incorrectly aligned** – The form initially appeared uneven in relation to the surrounding content, which made it seem as though the Bootstrap columns were not aligning correctly. | Reviewed the Bootstrap grid structure and the content surrounding the form. The layout was corrected and retested at different screen sizes to confirm consistent alignment. |
+| **Meet the Team images displayed inconsistently in the carousel** – The team photographs had different original dimensions, causing inconsistent image presentation when moving between carousel slides. | Applied a consistent image height together with `object-fit: cover` and `object-position: top` so that each photograph displays consistently while maintaining its proportions. |
+| **Large image files reduced Lighthouse performance** – Some images used on the website had unnecessarily large file sizes, contributing to slower page loading and lower performance results. | Optimised the affected images to reduce their file sizes while retaining suitable image quality, then repeated Lighthouse testing. |
+| **HTML validation identified errors during development** – Validation testing highlighted markup that required correction before the final version of the website. | Reviewed the issues reported by the W3C Nu HTML Checker, corrected the affected HTML and validated each page again to confirm the final markup. |
+
+## Deployment
+
+Oasis HR Hub was deployed using **GitHub Pages**, allowing the completed website to be accessed online directly from the project's GitHub repository.
+
+### Live Website
+
+The deployed Oasis HR Hub website can be viewed here:
+
+[View the live Oasis HR Hub website](https://mabeltechky.github.io/oasis-hr-hub/)
+
+### Deploying to GitHub Pages
+
+The following steps were used to deploy the project:
+
+1. Log in to GitHub and open the **Oasis HR Hub** repository.
+2. Select **Settings** from the repository navigation.
+3. Select **Pages** from the sidebar.
+4. Under **Build and deployment**, select **Deploy from a branch** as the source.
+5. Select the `main` branch and the `/ (root)` folder.
+6. Select **Save**.
+7. GitHub Pages then builds and publishes the website.
+8. Once deployment is complete, the live website URL is available from the GitHub Pages section of the repository settings.
+
+Changes pushed to the `main` branch are reflected on the deployed website after GitHub Pages completes the deployment process.
+
+### Local Development
+
+To work with the project locally:
+
+1. Open the Oasis HR Hub repository on GitHub.
+2. Select the **Code** button.
+3. Copy the repository URL.
+4. Open a terminal and navigate to the directory where the project should be stored.
+5. Clone the repository using:
+
+    ```bash
+    git clone https://github.com/mabeltechky/oasis-hr-hub.git
+    ```
+
+6. Navigate into the cloned project directory.
+7. Open the project in a code editor such as Visual Studio Code.
+8. Open `index.html` in a browser or run the project using a local development server.
+
+No additional installation or build process is required because Oasis HR Hub is a front-end project built using HTML, CSS and Bootstrap.
