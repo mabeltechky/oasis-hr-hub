@@ -583,3 +583,68 @@ Performance scores varied between pages, with the Meet the Team page recording t
 #### Meet the Team Lighthouse Result
 
 ![Lighthouse results for the Oasis HR Hub Meet the Team page](assets/images/documentation/team-lighthouse.jpeg)
+
+### Browser Compatibility
+
+Oasis HR Hub was tested across different browsers and devices to confirm that the deployed website displays correctly and that its main features remain functional.
+
+Development and the majority of testing were carried out using **Google Chrome on macOS**. The deployed website was also tested using **Safari on macOS** and **Safari on iOS**.
+
+| Browser | Device/Platform | Result |
+| --- | --- | --- |
+| Google Chrome | macOS | Pass |
+| Safari | macOS | Pass |
+| Safari | iOS | Pass |
+
+Testing confirmed that the website layout, navigation, images and interactive features displayed and functioned correctly across the browsers tested.
+
+On Safari for macOS, the desktop layout displayed correctly, including the navigation bar, page content, images and responsive sections.
+
+On Safari for iOS, the website adapted correctly to the smaller screen size. The desktop navigation collapsed into a hamburger menu, which expanded vertically when selected. Selecting a navigation link closed the menu and took the user to the selected page or section. Page content, including the Home page, Employee Hub, Meet the Team carousel and FAQ accordion, also adapted appropriately to the mobile screen.
+
+#### Safari on macOS
+
+![Oasis HR Hub displayed in Safari on macOS](assets/images/documentation/safari-macos.jpeg)
+
+#### Safari on iOS
+
+![Oasis HR Hub displayed in Safari on iOS](assets/images/documentation/safari-ios.jpeg)
+
+### Responsiveness
+
+Oasis HR Hub was designed using a mobile-first approach and Bootstrap's responsive grid system to ensure that the website remains usable and visually consistent across different screen sizes.
+
+Responsiveness was tested during development using Google Chrome DevTools and was also checked on physical devices, including a MacBook and an iPhone.
+
+Testing confirmed that the website adapts appropriately as the available screen width changes. On larger screens, content makes use of the additional horizontal space, while on smaller screens elements are rearranged or stacked vertically to maintain readability and usability.
+
+The responsive behaviour observed during testing included:
+
+- The navigation bar collapses into a hamburger menu on smaller screens.
+- Home page content adapts to the available screen width and stacks appropriately on mobile devices.
+- Service and pricing content rearranges responsively rather than overflowing the viewport.
+- Employee Hub content and self-service options remain accessible on smaller screens.
+- The Employee Onboarding form adjusts to the available screen width, allowing form fields and controls to remain accessible on mobile devices.
+- The Meet the Team introductory content and carousel stack vertically on smaller screens, while larger screens make use of a side-by-side layout.
+- The FAQ accordion remains readable and usable on smaller screens.
+- Forms and interactive components adjust to the available screen width without horizontal scrolling.
+
+#### Home Page on Mobile
+
+![Responsive Home page displayed on an iPhone](assets/images/documentation/responsive-home-mobile.jpeg)
+
+#### Employee Hub on Mobile
+
+![Responsive Employee Hub displayed on an iPhone](assets/images/documentation/responsive-employee-hub-mobile.jpeg)
+
+#### Employee Onboarding Form on Mobile
+
+![Responsive Employee Onboarding form displayed on an iPhone](assets/images/documentation/responsive-onboarding-mobile.jpeg)
+
+#### Meet the Team on Mobile
+
+![Responsive Meet the Team page displayed on an iPhone](assets/images/documentation/responsive-team-mobile.jpeg)
+
+#### FAQ on Mobile
+
+![Responsive FAQ page displayed on an iPhone](assets/images/documentation/responsive-faq-mobile.jpeg)
