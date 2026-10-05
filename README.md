@@ -848,3 +848,72 @@ To work with the project locally:
 8. Open `index.html` in a browser or run the project using a local development server.
 
 No additional installation or build process is required because Oasis HR Hub is a front-end project built using HTML, CSS and Bootstrap.
+
+## Credits
+
+### Code and Learning Resources
+
+The following resources supported the development of Oasis HR Hub:
+
+- **Code Institute** – course learning materials, lessons and project examples were used throughout the development of the project to support learning and reinforce concepts relating to HTML, CSS, Bootstrap, responsive design and Git/GitHub workflows.
+
+- **Bootstrap 5 Documentation** – used as a reference when implementing responsive layouts and components including the navigation bar, grid system, cards, forms, modals, accordion, carousel and tables.
+
+- **Font Awesome** – used to provide icons throughout the website.
+
+- **Google Fonts** – used to import the Inter typeface used throughout Oasis HR Hub.
+
+- **Google Search** – used during development to research HTML, CSS and Bootstrap concepts, troubleshoot coding issues and locate relevant documentation and learning resources.
+
+- **ChatGPT by OpenAI** – used as a learning and development support tool to explain HTML, CSS and Bootstrap concepts, assist with understanding code, provide debugging guidance and support the preparation and review of project documentation. Suggested solutions were reviewed, implemented and tested as part of the development process.
+
+- **W3C Nu HTML Checker** – used to validate the HTML pages and identify markup issues during testing.
+
+- **W3C CSS Validation Service** – used to validate the project's CSS.
+
+- **Google Lighthouse** – used to assess the website's performance, accessibility, best practices and SEO.
+
+- **WebAIM Contrast Checker** – used to check colour combinations and support accessible colour choices.
+
+### Inspiration
+
+The **Code Institute Boardwalk Games project** was used as a learning and reference resource during development, particularly when working with Bootstrap's responsive layout and component structure.
+
+Visual inspiration for the Oasis HR Hub design was also taken from an interior image shared through **Slack** during the design process. The image, originally published by **curaits on Unsplash**, helped inspire the warm and professional visual direction of the website.
+
+[View the original inspiration image on Unsplash](https://unsplash.com/photos/living-room-with-sofa-and-partition-p_xTs-dajHk)
+
+### Media
+
+The photographs used throughout Oasis HR Hub were sourced from the following:
+
+- **Vitaly Gariev – Pexels** – homepage workplace meeting image:  
+  https://www.pexels.com/photo/professional-business-meeting-in-office-setting-36733333/
+
+- **Pixabay** – Employee Hub header image:  
+  https://pixabay.com/photos/laptop-office-hand-writing-3196481/
+
+- **Ernest Flowers – Pexels** – HR Manager profile image:  
+  https://www.pexels.com/photo/professional-headshot-of-a-smiling-man-38677835/
+
+- **Nataliya Vaitkevich – Pexels** – HR team profile image:  
+  https://www.pexels.com/photo/woman-in-black-blazer-and-white-long-sleeve-shirt-8062305/
+
+- **Marcos Felipe – Pexels** – HR team profile image:  
+  https://www.pexels.com/photo/woman-in-black-dress-and-white-blazer-smiling-13331367/
+
+- **Joel Santos – Pexels** – HR team profile image:  
+  https://www.pexels.com/photo/smiling-woman-holding-chin-15780878/
+
+- **Tran Nhu Tuan – Pexels** – HR team profile image:  
+  https://www.pexels.com/photo/professional-woman-smiling-in-blue-business-suit-29995644/
+
+The **Oasis HR Hub logo** was created specifically for this project and is also used as the website favicon.
+
+**favicon.io** was used to generate the required favicon files and sizes from the Oasis HR Hub logo.
+
+### Acknowledgements
+
+I would like to acknowledge **Code Institute** for the course materials, learning resources and project examples that supported the development of Oasis HR Hub.
+
+I would also like to thank my **project coordinator and mentor** for their guidance, feedback and support throughout the planning, development and testing of the project.
