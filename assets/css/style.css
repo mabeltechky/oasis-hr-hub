@@ -39,15 +39,10 @@ h3 {
 /* Section headings */
 .section-heading {
     margin-top: 1.5rem;
-    text-transform: uppercase;
 }
-
-
-/* Subheading colour - to be reviewed
-.sub-heading-color {
-    color: var(--secondary-color);
+h2 {
+    text-transform: capitalize
 }
-*/
 
 
 /* Navigation */
